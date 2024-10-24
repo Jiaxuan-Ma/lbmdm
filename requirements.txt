@@ -19,3 +19,4 @@ sko==0.5.7
 SciencePlots
 prettytable
 tabulate
+distutils
