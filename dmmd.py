@@ -87,8 +87,8 @@ with st.sidebar:
 df = pd.read_csv("./data/lbm.csv")
 if select_option == "平台主页":
     st.write('''![](https://github.com/Jiaxuan-Ma/Transfer-Learning/assets/61132191/d2b0d25d-1353-46eb-8b8a-13f35dc0ebd5?raw=true)''')
-
-    colored_header(label="铅铋腐蚀数据挖掘平台",description="LBM data-mining",color_name="violet-90")
+    st.image("https://github.com/user-attachments/assets/18b314b2-f08c-454b-9dfd-3f0d6e32c2d0")
+    colored_header(label="铅铋腐蚀数据挖掘平台",description="LBE data-mining",color_name="violet-90")
 
 
 elif select_option == "数据可视化":
