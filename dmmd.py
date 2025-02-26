@@ -79,7 +79,7 @@ with st.sidebar:
     MGI(上海大学材料基因组工程研究院)
     ```
             ''')
-    select_option = option_menu("LBMDM", ["平台主页", "数据可视化", "特征工程", "回归预测", "可解释性机器学习","模型推理"],
+    select_option = option_menu("LBEDM", ["平台主页", "数据可视化", "特征工程", "回归预测", "可解释性机器学习","模型推理"],
                     icons=['house', 'clipboard-data', 'menu-button-wide','bezier2', 'arrow-repeat','subtract', 'app', 'microsoft'],
                     menu_icon="boxes", default_index=0)
 
