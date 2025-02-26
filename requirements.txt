@@ -20,4 +20,3 @@ sko
 SciencePlots
 prettytable
 tabulate
-distutils
